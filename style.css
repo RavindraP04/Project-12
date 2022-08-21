@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+header{
+    background-color: #636C79;
+    padding-bottom: 80px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div img{
+    height: 35px;
+}
+.nav-lists .nav-item{
+    font-family: "Poppins";
+    margin-left: 35px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.nav-lists i{
+    display: none;
+}
+.nav-lists button{
+    cursor: pointer;
+    background: transparent;
+    color: #ffffff;
+    font-family: "Poppins";
+    border: 1px solid #838992;
+    padding: 6px 35px;
+    margin-left: 60px;
+}
+.header-text{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin: auto 5%;
+    gap: 10px;
+}
+.header-text img{
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-left-text h2{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 56px;
+    font-weight: 700;
+    max-width: 480px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.header-left-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-left-text p{
+    text-align: justify;
+    color: #d0d3d8;
+    font-family: "Montserrat";
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 30px;
+    word-spacing: 2px;
+    padding-bottom: 30px;
+    position: relative;
+    right: 10px;
+}
+form{
+    position: relative;
+    left: -20px;
+}
+form i{
+    position: relative;
+    left: 30px;
+}
+form input{
+    font-family: "Poppins";
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-left: 35px;
+    width: 410px;
+}
+form button{
+    color: #ffffff;
+    background-color: #8BB7A2;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+    padding: 13px 45px;
+    position: relative;
+    right: -305px;
+    top: -57px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #4a866a;
+    transition: all 0.5s ease;
+}
+
+
+/* section_1 */
+.section_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto 5%; */
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.section_1 .head{
+    font-family: "Raleway";
+    font-size: 38px;
+    max-width: 600px;
+    text-align: center;
+    color: #070A0E;
+    padding-bottom: 50px;
+}
+.section_1 img{
+    height: 500px;
+    margin-top: 50px;
+}
+.stats_1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.sub-stats h2{
+    font-size: 30px;
+}
+.sub-stats p{
+    color: #3f4247;
+    font-weight: 500;
+    font-size: 14px;
+}
+.stats_1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_1 i{
+    position:  relative;
+    top: -260px;
+    font-size: 16px;
+    color: #8BB7A2;
+    background-color: #ffffff;
+    padding: 15px 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.section_1 i:hover{
+    color: #4a866a;
+    background-color: rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 10px 2px rgb(132, 238, 118);
+}
+
+/* section_2 */
+.section_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.section_2 h2{
+    font-family: "Raleway";
+    font-size: 38px;
+    max-width: 420px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section_2 div div h3,
+.section_3 div div h3,
+.section_4 div div h3{
+    font-family: "Raleway";
+    font-size: 32px;
+    padding-bottom: 20px;
+    max-width: 400px;
+}
+.section_2 div div p,
+.section_3 div div p,
+.section_4 div div p{
+    text-align: justify;
+    color: #666a70;
+    font-family: "Montserrat";
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+.section_2 div div button,
+.section_3 div div button,
+.section_4 div div button{
+    color: #ffffff;
+    background-color: #8BB7A2;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+    padding: 13px 45px;
+    cursor: pointer;
+}
+.section_2 div div button:hover,
+.section_3 div div button:hover,
+.section_4 div div button:hover{
+    background-color: #4a866a;
+    transition: all 0.5s ease;
+}
+.section_2 img{
+    height: 450px;
+}
+.stats_2 {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+
+/* section_3 */
+.section_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stats_3{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 85%;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 80px;
+}
+.section_3 img{
+    height: 450px;
+}
+
+/* section_4 */
+.section_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 160px;
+}
+.stats_4{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.section_4 img{
+    height: 460px;
+}
+
+/* section_5 */
+.section_5{
+    margin: auto 5%;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 9%;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.heading h2{
+    font-family: "Raleway";
+    font-size: 33px;
+    padding-bottom: 20px;
+    max-width: 300px;
+}
+.heading p{
+    text-align: justify;
+    color: #666a70;
+    font-family: "Montserrat";
+    max-width: 450px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+.card h3{
+    font-family: "Raleway";
+    font-size: 18px;
+    padding-bottom: 20px;
+    max-width: 250px;
+}
+.card p{
+    text-align: justify;
+    color: #666a70;
+    font-family: "Montserrat";
+    max-width: 290px;
+    font-size: 13px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.card img{
+    height: 350px;
+    padding-bottom: 20px;
+}
+.btn-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn-end button{
+    color: #ffffff;
+    background-color: #8BB7A2;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+    padding: 13px 45px;
+    cursor: pointer
+}
+.btn-end button:hover{
+    background-color: #4a866a;
+    transition: all 0.5s ease;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+main{
+    padding-bottom: 80px;
+}
+
+/* footer */
+footer{
+    background-color: #10181D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 13%;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #282F34;
+}
+.footer-top .social img{
+    cursor: pointer;
+    height: 45px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-top img{
+    height: 35px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 40px;
+}
+.footer-bottom div h3{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.footer-bottom div ul li{
+    list-style-type: none;
+    padding-bottom: 12px;
+}
+.footer-bottom div ul li a{
+    text-decoration: none;
+    font-family: "Poppins";
+    color: #a2a8b3;
+    font-size: 13px;
+}
+@media screen and (max-width:1040px) {
+    .nav-lists .nav-item{
+        display: none;
+    }
+    .top-btn{
+        display: none;
+    }
+    .nav-lists i{
+        display: flex;
+        font-size: 20px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:1016px) {
+    .heading{
+        display: flex;
+        justify-content: center;
+    }
+    .heading h2{
+        max-width: 510px;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 1031px) {
+    .section_1 img{
+        height: 400px;
+    }
+    .section_1 i{
+        position:  relative;
+        top: -200px;
+    }
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-basis: auto;
+    }
+    .stats_2 h3,
+    .stats_3 h3,
+    .stats_4 h3{
+        text-align: center;
+    }
+    .section_2 div div p,
+    .section_3 div div p,
+    .section_4 div div p{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 847px) {
+    .stats_1 {
+        display: flex;
+        gap: 60px;
+    }
+    .section_1 img{
+        height: 340px;
+    }
+    .section_1 i{
+        position:  relative;
+        top: -180px;
+    }
+    nav{
+        padding: 4% 5%;
+    }
+}
+@media screen and (max-width: 701px){
+    .section_1 img{
+        height: 250px;
+    }
+    .header-left-text h2,
+    .header-left-text p{
+        text-align: center;
+    }
+    .header-text img{
+        height: 400px;
+    }
+    .header-left-text  h2{
+        font-size: 50px;
+    }
+    .header-left-text  p{
+        font-size: 14px;
+    }
+    .section_1 i{
+        position:  relative;
+        top: -140px;
+    }
+    .card h3,
+    .card p{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 530px){
+    .section_1 .head,
+    .section_2 h2,
+    .section_3 h2,
+    .section_4 h2{
+        font-size: 30px;
+    }
+    .section_2 div div h3,
+    .section_3 div div h3,
+    .section_4 div div h3{
+        font-size: 25px;
+    }
+    .section_2 div div p,
+    .section_3 div div p,
+    .section_4 div div p{
+        font-size: 14px;
+    }
+    .section_2  p,
+    .section_3  p,
+    .section_4  p{
+        font-size: 10px;
+    }
+    .section_1 img{
+        height: 200px;
+    }
+    .section_1 i{
+        position:  relative;
+        top: -120px;
+    }
+    .section_2 img,
+    .section_3 img,
+    .section_4 img{
+        height: 350px;
+    }
+    .header-left-text  h2{
+        font-size: 45px;
+    }
+    .header-left-text  p{
+        font-size: 14px;
+        max-width: 350px;
+    }
+}
+@media screen and (max-width: 521px){
+    form{
+        position: relative;
+        left: -15px;
+    }
+    form i{
+        position: relative;
+        left: 30px;
+    }
+    form input{
+        width: 250px;
+    }
+    form button{       
+        padding: 13px 45px;
+        position: relative;
+        right: -22px;
+        top: 7px;
+        width: 285px;
+    }
+    nav{
+        padding: 5% 5%;
+    }
+    .section_1 img{
+        height: 170px;
+    }
+    .section_1 i{
+        position:  relative;
+        top: -100px;
+    }
+    .heading p{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 370px){
+    .header-text img{
+        height: 300px;
+    }
+    .header-left-text h2{
+        font-size: 40px;
+    }
+    .section_2 img,
+    .section_3 img,
+    .section_4 img{
+        height: 300px;
+    }
+    .section_2 h2{
+        font-size: 28px;
+    }
+}
